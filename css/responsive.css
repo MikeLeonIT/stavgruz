@@ -255,7 +255,7 @@
 	.navbar-nav {
 		overflow-y: auto;
 		display:block;
-		background: darkgray;
+		background-color: gray;
 	}
 	.navbar-nav li a:after {
 		display:none;
