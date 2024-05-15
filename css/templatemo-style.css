@@ -131,19 +131,22 @@ figure {
 
 video {
   position: fixed;
+  width: 100% !important;
+  height: auto !important;
   right: 0;
   bottom: 0;
   min-width: 100%; 
   min-height: 100%;
+  object-fit: cover;
 }
 #video:after {
   content: '';
   opacity: 0.75;
-  background: #2b134b; /* Old browsers */
-  background: -moz-linear-gradient(top, #2b134b 0%, #f8f8f8 100%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(top, #2b134b 0%,#f8f8f8 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(top bottom, #2b134b 0%,#f8f8f8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2b134b', endColorstr='#f8f8f8',GradientType=0 ); /* IE6-9 */
+  /*background: #2b134b; /* Old browsers */
+  /*background: -moz-linear-gradient(top, #2b134b 0%, #f8f8f8 100%); /* FF3.6-15 */
+  /*background: -webkit-linear-gradient(top, #2b134b 0%,#f8f8f8 100%); /* Chrome10-25,Safari5.1-6 */
+  /*background: linear-gradient(top bottom, #2b134b 0%,#f8f8f8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  /*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2b134b', endColorstr='#f8f8f8',GradientType=0 ); /* IE6-9 */
   position:fixed;
   left:0;
   top:0;
